@@ -1,4 +1,4 @@
-node {
+/*node {
 	stage('Build') {
 		echo "Build"
 	}
@@ -8,4 +8,11 @@ node {
 	stage('Integration Test') {
 		echo "Integration Test"
 	}
+}*/
+
+//scripted
+node{
+echo "Build"
+echo "Test"
+echo "Integration Test"
 }
